@@ -1,0 +1,263 @@
+[
+  {
+    "id": "Q1",
+    "topic": "DevOps Culture",
+    "question": "What is a key goal of DevOps culture?",
+    "options": [
+      "Keep development and operations completely separate",
+      "Reduce collaboration to avoid conflicts",
+      "Improve collaboration and shared responsibility",
+      "Remove the need for monitoring"
+    ],
+    "answerIndex": 2,
+    "explanation": "DevOps culture emphasizes collaboration and shared ownership to deliver software faster and more reliably."
+  },
+  {
+    "id": "Q2",
+    "topic": "DevOps Culture",
+    "question": "Which practice supports learning from incidents in DevOps?",
+    "options": [
+      "Blameless postmortems",
+      "Hiding production errors",
+      "Avoiding retrospectives",
+      "Only fixing issues during yearly maintenance"
+    ],
+    "answerIndex": 0,
+    "explanation": "Blameless postmortems focus on improving systems and processes without blaming individuals."
+  },
+  {
+    "id": "Q3",
+    "topic": "DevOps Culture",
+    "question": "What does 'shift left' usually mean?",
+    "options": [
+      "Move testing/security earlier in the lifecycle",
+      "Delay testing until production",
+      "Remove automated checks",
+      "Only test after deployment"
+    ],
+    "answerIndex": 0,
+    "explanation": "Shift left means performing quality and security activities earlier to catch issues sooner."
+  },
+  {
+    "id": "Q4",
+    "topic": "DevOps Culture",
+    "question": "Why is fast feedback important in DevOps?",
+    "options": [
+      "It increases manual work",
+      "It helps detect issues earlier and improve delivery",
+      "It prevents collaboration",
+      "It removes the need for planning"
+    ],
+    "answerIndex": 1,
+    "explanation": "Fast feedback helps teams fix problems earlier and continuously improve quality and speed."
+  },
+  {
+    "id": "Q5",
+    "topic": "Version Control Systems",
+    "question": "What is the main purpose of a version control system like Git?",
+    "options": [
+      "To run applications in production",
+      "To track and manage changes to files over time",
+      "To replace programming languages",
+      "To monitor CPU usage"
+    ],
+    "answerIndex": 1,
+    "explanation": "Version control tracks changes, supports collaboration, and allows rollback and branching."
+  },
+  {
+    "id": "Q6",
+    "topic": "Version Control Systems",
+    "question": "What does a Git commit represent?",
+    "options": [
+      "A saved snapshot of changes with a message",
+      "A deleted branch",
+      "A GitHub user account",
+      "A remote server configuration"
+    ],
+    "answerIndex": 0,
+    "explanation": "A commit records changes and becomes part of the repository history."
+  },
+  {
+    "id": "Q7",
+    "topic": "Version Control Systems",
+    "question": "Why are feature branches used?",
+    "options": [
+      "To work on changes without affecting the main branch",
+      "To avoid code reviews",
+      "To prevent merging",
+      "To eliminate the need for commits"
+    ],
+    "answerIndex": 0,
+    "explanation": "Feature branches isolate work so it can be reviewed and merged safely."
+  },
+  {
+    "id": "Q8",
+    "topic": "Version Control Systems",
+    "question": "What is the purpose of a Pull Request (PR)?",
+    "options": [
+      "To request merging changes and enable review",
+      "To delete the repository",
+      "To rename all files automatically",
+      "To run code on a server"
+    ],
+    "answerIndex": 0,
+    "explanation": "PRs help review changes and discuss them before merging into main."
+  },
+  {
+    "id": "Q9",
+    "topic": "Plan with DevOps",
+    "question": "Which item best represents planning work in DevOps?",
+    "options": [
+      "A backlog of tasks/issues",
+      "A compiled executable file",
+      "A router configuration",
+      "A database backup"
+    ],
+    "answerIndex": 0,
+    "explanation": "Planning often uses a backlog of issues/user stories to prioritize and track work."
+  },
+  {
+    "id": "Q10",
+    "topic": "Plan with DevOps",
+    "question": "Why break work into small tasks?",
+    "options": [
+      "To hide progress",
+      "To enable faster feedback and incremental delivery",
+      "To avoid testing",
+      "To eliminate documentation"
+    ],
+    "answerIndex": 1,
+    "explanation": "Small tasks make work easier to review, test, and deliver incrementally."
+  },
+  {
+    "id": "Q11",
+    "topic": "Plan with DevOps",
+    "question": "What is one benefit of linking commits to issues/tickets?",
+    "options": [
+      "It removes the need for branches",
+      "It improves traceability of changes",
+      "It prevents collaboration",
+      "It disables pull requests"
+    ],
+    "answerIndex": 1,
+    "explanation": "Traceability connects code changes to requirements, fixes, and discussions."
+  },
+  {
+    "id": "Q12",
+    "topic": "Continuous Integration",
+    "question": "What is the primary goal of Continuous Integration (CI)?",
+    "options": [
+      "Automatically deploy to production",
+      "Frequently integrate code changes into a shared repository",
+      "Eliminate the need for testing",
+      "Remove the need for branches"
+    ],
+    "answerIndex": 1,
+    "explanation": "CI integrates changes frequently and validates them early using automated builds/tests."
+  },
+  {
+    "id": "Q13",
+    "topic": "Continuous Integration",
+    "question": "What commonly triggers a CI pipeline?",
+    "options": [
+      "A code push or pull request event",
+      "A yearly manual approval only",
+      "Deleting the repository",
+      "Turning off tests"
+    ],
+    "answerIndex": 0,
+    "explanation": "CI pipelines are typically triggered by pushes/commits or PR activity."
+  },
+  {
+    "id": "Q14",
+    "topic": "Continuous Integration",
+    "question": "Why run automated tests in CI?",
+    "options": [
+      "To detect bugs early and reduce integration problems",
+      "To make builds slower on purpose",
+      "To avoid writing code",
+      "To stop collaboration"
+    ],
+    "answerIndex": 0,
+    "explanation": "Automated tests provide fast feedback and catch issues before merging and release."
+  },
+  {
+    "id": "Q15",
+    "topic": "Continuous Delivery",
+    "question": "What does Continuous Delivery usually mean?",
+    "options": [
+      "Every change is automatically deployed to production",
+      "Software is always in a deployable state",
+      "No testing is needed after coding",
+      "Deployments happen once per year"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Delivery keeps the product ready to deploy at any time (deployment may still be a manual decision)."
+  },
+  {
+    "id": "Q16",
+    "topic": "Continuous Deployment",
+    "question": "How is Continuous Deployment different from Continuous Delivery?",
+    "options": [
+      "It requires no version control",
+      "It automatically deploys every successful change to production",
+      "It forbids automation",
+      "It only deploys manually once a month"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Deployment automatically releases to production after passing all checks."
+  },
+  {
+    "id": "Q17",
+    "topic": "Continuous Delivery",
+    "question": "Which is a common requirement for reliable delivery pipelines?",
+    "options": [
+      "No logs or monitoring",
+      "Manual steps only",
+      "Automated build and test steps",
+      "Avoiding code review"
+    ],
+    "answerIndex": 2,
+    "explanation": "Automation improves reliability and reduces human errors in delivery pipelines."
+  },
+  {
+    "id": "Q18",
+    "topic": "Infrastructure as Code",
+    "question": "What is Infrastructure as Code (IaC)?",
+    "options": [
+      "Managing infrastructure using machine-readable configuration files",
+      "Buying hardware without documentation",
+      "Configuring servers only by clicking in dashboards",
+      "A type of database query language"
+    ],
+    "answerIndex": 0,
+    "explanation": "IaC defines infrastructure with code/config, enabling version control and repeatable setups."
+  },
+  {
+    "id": "Q19",
+    "topic": "Infrastructure as Code",
+    "question": "What is a major benefit of IaC?",
+    "options": [
+      "Infrastructure cannot be tracked",
+      "Repeatable and consistent environments",
+      "It prevents collaboration",
+      "It removes the need for reviews"
+    ],
+    "answerIndex": 1,
+    "explanation": "IaC helps create consistent environments and reduces configuration drift."
+  },
+  {
+    "id": "Q20",
+    "topic": "Version Control Systems",
+    "question": "What is a merge conflict?",
+    "options": [
+      "When Git cannot automatically combine overlapping changes",
+      "When a laptop battery is low",
+      "When a repo is public",
+      "When a branch has commits"
+    ],
+    "answerIndex": 0,
+    "explanation": "Merge conflicts occur when changes overlap and Git needs manual resolution."
+}
+]
+         
