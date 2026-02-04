@@ -1,7 +1,14 @@
 # devops-quiz-app 
 
-## Question Format
 
+
+## Features
+- Topic selection dropdown
+- Shows one question at a time
+- Answer checking with instant feedback
+- Shows explanation after answering
+
+## Question Format
 Questions are stored in `data/questions.json`.
 
 Each question follows this structure:
