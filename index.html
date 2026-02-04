@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DevOps Quiz App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>DevOps Quiz</h1>
+
+    <div class="card">
+      <label for="topicSelect">Choose a topic:</label>
+      <select id="topicSelect">
+        <option value="ALL">All Topics</option>
+      </select>
+
+      <div class="status">
+        <span id="progressText">Loading…</span>
+        <span id="scoreText">Score: 0</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2 id="questionText">Loading question…</h2>
+      <div id="options"></div>
+
+      <div id="feedback" class="feedback hidden"></div>
+
+      <div class="actions">
+        <button id="nextBtn" disabled>Next</button>
+        <button id="restartBtn">Restart</button>
+      </div>
+    </div>
+
+    <p class="note">Static app (HTML/CSS/JS). Questions loaded from JSON.</p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
