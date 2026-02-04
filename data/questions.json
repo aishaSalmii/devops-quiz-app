@@ -258,5 +258,6 @@
     ],
     "answerIndex": 0,
     "explanation": "Merge conflicts occur when changes overlap and Git needs manual resolution."
-  }
+}
 ]
+         
